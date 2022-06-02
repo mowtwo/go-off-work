@@ -23,14 +23,14 @@
 </svelte:head>
 
 <div
-  class="w-full h-full bg-gray-500 fixed flex items-center justify-center flex-col"
+  class="w-full h-full bg-blue-300 fixed flex items-center justify-center flex-col"
 >
   {#if working}
     <div class="font-bold text-light-50 text-[2.23rem]">距离下班还有</div>
-    <div class="font-bold text-red-600 text-[12rem] mt-10">
+    <div class="font-bold text-blue-600 lg:text-[12rem] md:text-[10rem] mt-10 text-[5rem]">
       {padZero(hour)}:{padZero(minute)}:{padZero(second)}
     </div>
   {:else}
-    <div class="font-bold text-green-500 text-[10rem]">已经下班啦！！！</div>
+    <div class="font-bold text-blue-800 lg:text-[12rem] md:text-[10rem] text-[4rem] text-center">已经下班啦！！！</div>
   {/if}
 </div>
