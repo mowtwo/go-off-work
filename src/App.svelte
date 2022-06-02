@@ -1,5 +1,6 @@
 <script lang="ts">
   import dayjs from "dayjs";
+  import TouchFish from "./lib/TouchFish.svelte";
 
   const getTN = (
     s: string,
@@ -78,3 +79,4 @@
     </div>
   {/if}
 </div>
+<TouchFish />
