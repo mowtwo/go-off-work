@@ -57,7 +57,7 @@
 </svelte:head>
 
 <div
-  class="w-full h-full bg-blue-300 fixed flex items-center justify-center flex-col"
+  class="w-full h-full bg-blue-300 fixed flex items-center justify-center flex-col select-none"
 >
   {#if working}
     <div class="font-bold text-light-50 text-[2.23rem]">
