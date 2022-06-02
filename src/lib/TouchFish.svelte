@@ -19,17 +19,17 @@
 <style>
   @keyframes fish-jump {
     0% {
-      background-image: url(./fish-cover.png);
+      background-image: url(/fish-cover.png);
     }
     50% {
-      background-image: url(./fish-2.png);
+      background-image: url(/fish-2.png);
     }
     100% {
-      background-image: url(./fish-3.png);
+      background-image: url(/fish-3.png);
     }
   }
   .fishing {
-    background: url(./fish-cover.png) no-repeat center;
+    background: url(/fish-cover.png) no-repeat center;
   }
   .fishing::before {
     content: attr(data-counter);
