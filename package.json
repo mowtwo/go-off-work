@@ -28,6 +28,7 @@
   "dependencies": {
     "@types/node": "^17.0.41",
     "dayjs": "^1.11.2",
+    "mow-try-do": "^1.0.0",
     "superagent": "^7.1.6"
   }
 }

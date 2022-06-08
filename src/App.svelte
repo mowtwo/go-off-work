@@ -5,7 +5,7 @@
   const getTN = (
     s: string,
     defaultN: number,
-    invalider: (n: number) => boolean = () => true
+    validator: (n: number) => boolean = () => true
   ): number => {
     if (!s) {
       return defaultN;
@@ -17,7 +17,7 @@
     if (isNaN(n)) {
       return defaultN;
     }
-    if (!invalider(n)) {
+    if (!validator(n)) {
       return defaultN;
     }
     return n;

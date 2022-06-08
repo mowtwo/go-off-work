@@ -7,6 +7,7 @@ specifiers:
   '@types/superagent': ^4.1.15
   '@vercel/node': ^2.0.1
   dayjs: ^1.11.2
+  mow-try-do: ^1.0.0
   superagent: ^7.1.6
   svelte: ^3.44.0
   svelte-check: ^2.2.7
@@ -21,6 +22,7 @@ specifiers:
 dependencies:
   '@types/node': 17.0.41
   dayjs: 1.11.2
+  mow-try-do: 1.0.0
   superagent: 7.1.6
 
 devDependencies:
@@ -1788,6 +1790,11 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
     dev: true
+
+  /mow-try-do/1.0.0:
+    resolution: {integrity: sha512-vMIX3wPawmAdmhMfx6ZH27K1lGG72chuf9Y6q/26shSp+93yiMJfaTONE1IGmL1sxt3uAhH5u8nEh9qYbEuviQ==}
+    hasBin: true
+    dev: false
 
   /mri/1.2.0:
     resolution: {integrity: sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==}
